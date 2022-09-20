@@ -8,6 +8,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | Article preview component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 
 
 </head>
@@ -16,30 +20,33 @@
 
   <article class="article">
     <img class="article__img" width="660" height="528" src="./images/drawers.jpg" alt="drawers">
-    <h1 class="article__title">Shift the overall look and feel by adding these wonderful
-      touches to furniture in your home</h1>
-    <p class="article__description">Ever been in a room and felt like something was missing? Perhaps
-      it felt slightly bare and uninviting. I've got some simple tips
-      to help you make any room feel complete.</p>
-    <footer class="article__author">
-      <img src="./images/avatar-michelle.jpg" width="40" height="40" alt="" class="article__author-img">
-      <h2 class="article__author-name">Michelle Appleton</h2>
-      <time class="article__time" datetime="2020-06-28">28 Jun 2020</time>
-      <button class="article__share" aria-label="share"></button>
-    </footer>
-    <div class="article__sharing">
-      Share
-      <span class="icon icon__facebook"></span>
-      <span class="icon icon__twitter"></span>
-      <span class="icon icon__pinterest"></span>
-      <button class="article__share" aria-label="share"></button>
+    <div class="article__text">
+      <h1 class="article__title">Shift the overall look and feel by adding these wonderful
+        touches to furniture in your home</h1>
+      <p class="article__description">Ever been in a room and felt like something was missing? Perhaps
+        it felt slightly bare and uninviting. I've got some simple tips
+        to help you make any room feel complete.</p>
+      <footer class="article__author">
+        <img src="./images/avatar-michelle.jpg" width="40" height="40" alt="" class="article__author-photo">
+        <h2 class="article__author-name">Michelle Appleton</h2>
+        <time class="article__published" datetime="2020-06-28">28 Jun 2020</time>
+        <button class="article__share-btn" aria-label="share"><i class="article__share-icon"></i></button>
+      </footer>
+      <div class="article__sharing">
+        Share
+        <span class="icon icon__facebook"></span>
+        <span class="icon icon__twitter"></span>
+        <span class="icon icon__pinterest"></span>
+        <button class="article__share-btn article__share-btn--dark" aria-label="share"><i class="article__share-icon"></i></button>
+      </div>
     </div>
 
   </article>
+  
 
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://santiagolarae.github.io">SantiLara</a>.
   </footer>
 </body>
 
