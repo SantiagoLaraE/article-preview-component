@@ -162,6 +162,7 @@ p {
 
 @media screen and (min-width: 768px) {
   body {
+    padding: 2.4rem;
     grid-template-rows: 1fr 6.5rem;
   }
   .article {
@@ -171,14 +172,22 @@ p {
   .article__img {
     max-width: 28.4rem;
     border-radius: 0.8rem 0 0 0.8rem;
+    object-fit: cover;
   }
   .article__title {
     font-size: 2rem;
   }
+  .article__description{
+    margin-bottom: 2rem;
+  }
+  .article__author{
+    padding-bottom: 3.2rem;
+    padding-top: 0;
+  }
   .article__sharing {
     position: absolute;
     right: 0;
-    bottom: 8rem;
+    bottom: 9rem;
     width: initial;
     border-radius: 1.6rem;
     padding: 1.6rem;
