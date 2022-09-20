@@ -91,6 +91,7 @@ p {
   align-items: center;
   border-radius: 1.6rem;
   border: none;
+  cursor: pointer;
 }
 .article__share-icon {
   display: block;
